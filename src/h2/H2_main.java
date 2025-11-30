@@ -18,13 +18,13 @@ public class H2_main {
                 if(a[i]!=b[i]) {
                     return false;
                 }
-                return true;
+                i++;
             }
+            return true;
         }
         else {
             return false;
         }
-    return false;
     }
 
 }

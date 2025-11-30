@@ -18,13 +18,17 @@ public class H3_main {
         int f = 0;
         int l = 0;
         int g = 0;
+        if(a.length != b.length) {
+            return false;
+        }
         for (int i = 0; i <a.length; i++) {
             f = a[i];
 
-        }
-        for (k = 0; k < a.length; k++) {
-            if (a[k] == f) {
-                wieoft1++;
+
+            for (k = 0; k < a.length; k++) {
+                if (a[k] == f) {
+                    wieoft1++;
+                }
             }
         }
         for(l = 0; l<b.length; l++) {
