@@ -18,10 +18,10 @@ public class H3_main {
         int f = 0;
         int l = 0;
         int g = 0;
-        if(a.length != b.length) {
+        if (a.length != b.length) {
             return false;
         }
-        for (int i = 0; i <a.length; i++) {
+        for (int i = 0; i < a.length; i++) {
             f = a[i];
 
 
@@ -30,17 +30,19 @@ public class H3_main {
                     wieoft1++;
                 }
             }
-        }
-        for(l = 0; l<b.length; l++) {
-            if(b[l] == f) {
-                wieoft2++;
+
+            for (l = 0; l < b.length; l++) {
+                if (b[l] == f) {
+                    wieoft2++;
+                }
             }
+            if (wieoft1 != wieoft2) {
+                return false;
+            }
+
         }
-        if(wieoft1!=wieoft2){
-            return false;
-        }
-            return true;
-        }
+        return true;
+    }
     }
 
 
