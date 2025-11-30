@@ -12,8 +12,6 @@ public class H3_main {
     System.out.println(ergebnis);
     }
     public static boolean compareArraysVal(int[] a, int[] b) {
-        int wieoft1 = 0;
-        int wieoft2 = 0;
         int k = 0;
         int f = 0;
         int l = 0;
@@ -23,6 +21,8 @@ public class H3_main {
         }
         for (int i = 0; i < a.length; i++) {
             f = a[i];
+            int wieoft1 = 0;
+            int wieoft2 = 0;
 
 
             for (k = 0; k < a.length; k++) {
